@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">My Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="config">Configurações</string>
+    <string name="server">Server</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="port">Port</string>
+
+    <string name="title_Menu1">Início</string>
+    <string name="title_Menu2">Portão</string>
+    <string name="title_Publish">Publish</string>
+    <string name="title_GraphTemp">Gráfico de Temperatura</string>
+    <string name="title_Config">Configurações</string>
+    <string name="title_Clients">Clientes</string>
+    <string name="title_Finish">Encerrar</string>
+
+    <string name="local_name">local</string>
+    <string name="cloud_name">cloud</string>
+    <string name="TempInter_name">inter</string>
+    <string name="TempExter_name">exter</string>
+
+    <string name="txt_StarConnectionLocal">Inciando conexão em modo Local/</string>
+    <string name="txt_StarConnectionCloud">Inciando conexão em modo Cloud/</string>
+    <string name="txt_ConnectedLocal">Conectado em modo Local</string>
+    <string name="txt_ConnectedCloud">Conectado em modo Cloud</string>
+    <string name="txt_ToEndConnectionLocal">Encerrando conexão em modo Local</string>
+    <string name="txt_ToEndConnectionCloud">Encerrando conexão em modo Cloud</string>
+    <string name="txt_EndConnectionLocal">Modo Local desconectado</string>
+    <string name="txt_EndConnectionCloud">Modo Cloud desconectado</string>
+    <string name="txt_SelectedLocal">Modo Local selecionado</string>
+    <string name="txt_SelectedCloud">Modo Cloud selecionado</string>
+    <string name="txt_failConnectionLocal">Falha de conexão em modo Local</string>
+    <string name="txt_failConnectionCloud">Falha de conexão em modo Cloud</string>
+    <string name="txt_openDoor">Abrindo portão</string>
+    <string name="txt_waitingAnswer">Aguardando resposta...</string>
+    <string name="txt_openGateSucess">Portão aberto com sucesso</string>
+    <string name="txt_wait">. Aguarde...</string>
+    <string name="txt_update">Atualizado</string>
+    <string name="txt_newDataTempInter">New Data/TempInter</string>
+    <string name="txt_newDataTempExter">New Data/TempExter</string>
+    <string name="txt_nodeMcuConnected">NodeMcu conectado ao Servidor</string>
+    <string name="txt_nodeRedConnected">NodeRed conectado ao Servidor</string>
+    <string name="txt_ArduinoConnected">Arduino conectado ao Servidor</string>
+
+    <string name="error_ClientType">Erro: Tipo de Client</string>
+    <string name="error_AlreadyConnected">Erro: Já conectado</string>
+    <string name="error_NotConnected">Erro: Não conectado</string>
+    <string name="error_NotConnectedLocal">Erro: Modo Local não conectado</string>
+    <string name="error_NotConnectedCloud">Erro: Modo Cloud não conectado</string>
+    <string name="error_NoData">Erro: Sem dados</string>
+
+    <string name="topic_keepAlive">keepAlive</string>
+    <string name="topic_outTopic">outTopic</string>
+    <string name="topic_inTopic">inTopic</string>
+    <string name="topic_door">door</string>
+    <string name="topic_temp">temp</string>
+
+    <string name="sendTopic_openDoor">open</string>
+    <string name="respTopic_tempInter">tempInter</string>
+    <string name="respTopic_tempExter">tempExter</string>
+    <string name="respTopic_openSucess">openSucess</string>
+    <string name="respTopic_NodeMcuAlive">NodeMcu/Alive</string>
+    <string name="respTopic_NodeRedAlive">NodeRed/Alive</string>
+    <string name="respTopic_ArduinoAlive">Arduino/Alive</string>
+
+    <string name="get_temp">getTemp</string>
+    <string name="get_keepAliveAll">check</string>
+    <string name="get_keepAliveNodeMcu">NodeMcu/check</string>
+    <string name="get_keepAliveNodeRed">NodeRed/check</string>
+    <string name="get_keepAliveArduino">Arduino/check</string>
+
+    <string-array name="ListTitle">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
+    <string-array name="ListImage">
+        <item>@drawable/rsz_ic_nodemcu</item>
+        <item>@drawable/rsz_ic_nodered</item>
+        <item>@drawable/rsz_ic_arduino</item>
+    </string-array>
+
+    <string-array name="ListSubTitle">
+        <item>SubTitle 1</item>
+        <item>SubTitle 2</item>
+        <item>SubTitle 3</item>
+    </string-array>
+
+    <string-array name="ListDescription">
+        <item>Description 1</item>
+        <item>Description 2</item>
+        <item>Description 3</item>
+    </string-array>
+
+
+</resources>

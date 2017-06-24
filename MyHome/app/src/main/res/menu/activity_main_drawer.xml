@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/ic_main"
+            android:title="@string/title_Menu1" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/ic_door"
+            android:title="@string/title_Menu2" />
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Menu 3" />
+        <item
+            android:id="@+id/nav_graphTemp"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/title_GraphTemp"
+            />
+
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/title_Config" />
+            <item
+                android:id="@+id/nav_pub"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_Publish"/>
+            <item
+                android:id="@+id/nav_cli"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_Clients"/>
+        </menu>
+    </item>
+
+</menu>
